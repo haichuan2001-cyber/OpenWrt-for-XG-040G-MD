@@ -22,7 +22,8 @@ on:
       - "feeds.conf.default"
 
 env:
-  CONFIG_FILE: "config/xg-040g-md.config"
+ # CONFIG_FILE: "config/xg-040g-md.config"
+  CONFIG_FILE: "config/040g.config"
   REPO_URL: https://github.com/xiangtailiang/openwrt.git
   REPO_BRANCH: main
   FEEDS_CONF: feeds.conf.default
